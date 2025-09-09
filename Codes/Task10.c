@@ -19,6 +19,10 @@ int main(){
     //Verifying result:
     printf("AFTER SWAP USING THIRD VARIABLE\n");
     printf("varX: %d    varY: %d\n",varX,varY);
+    
+//RESETTING BEFORE SWAPPING AGAIN:
+    varX = 7;
+    varY = 19;
 
 //Swapping without a third variable:
     varX = varX + varY;
